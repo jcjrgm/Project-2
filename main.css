@@ -92,3 +92,40 @@ dl > dd {
 	margin: 0 1em 0 1em;
 	color: black;
 }
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+}
+
+
+input[type=submit], input[type=reset] {
+	background-color: #2db83d;
+	color: white;
+	border: none;
+	padding: 16px 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 290px;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
