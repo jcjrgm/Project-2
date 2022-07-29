@@ -84,15 +84,6 @@ aside {
 	padding-bottom: 1em;
 }
 
-dl {
-	font: 1.0em/0.9em Helvetica;
-}
-
-dl > dd {
-	margin: 0 1em 0 1em;
-	color: black;
-}
-
 textarea {
   width: 100%;
   height: 150px;
@@ -101,7 +92,6 @@ textarea {
   border-radius: 4px;
   resize: none;
 }
-
 
 input[type=submit], input[type=reset] {
 	background-color: #2db83d;
@@ -112,10 +102,22 @@ input[type=submit], input[type=reset] {
 	cursor: pointer;
 }
 
+form {
+	background-color: #7b5904;
+	color: white;
+}
+
+form > textarea {
+	background-color: #d4f1f9;
+}
+
+form > input {
+	background-color: #d4f1f9;
+}
 
 div.gallery {
 	margin: 5px;
-	border: 1px solid #ccc;
+	border: 1px solid #000;
 	float: left;
 	width: 290px;
 }
@@ -128,4 +130,47 @@ div.gallery img {
 div.desc {
 	padding: 15px;
 	text-align: center;
+}
+
+.accordion {
+	background-color: #7b5904;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+.accordion-body {
+	background-color: #d4f1f9;
+	color: black;
+	cursor: pointer;
+	padding: 4px;
+	text-align: left;
+}
+
+.accordion-button {
+	background-color: #2db83d;
+	color: #FFF;
+}
+
+.card {
+	background-color: #d4f1f9;
+	margin: 5px;
+	border: 1px solid #000;
+	float: left;
+	width: 290px;
+}
+
+.card-title {
+	text-align: center;
+	color: black;
+}
+
+.card-text {
+	text-align: left;
+	color: black;
+	padding: 4px;
 }
