@@ -71,7 +71,7 @@ body > header > h1 {
 
 p {
 	margin: 1em;
-	font-size: 0.9em;
+	font-size: 1.0em;
 }
 
 img {
@@ -130,47 +130,7 @@ div.gallery img {
 div.desc {
 	padding: 15px;
 	text-align: center;
-}
-
-.accordion {
-	background-color: #7b5904;
 	color: black;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	text-align: left;
-	border: none;
-	outline: none;
-}
-
-.accordion-body {
 	background-color: #d4f1f9;
-	color: black;
-	cursor: pointer;
-	padding: 4px;
-	text-align: left;
 }
 
-.accordion-button {
-	background-color: #2db83d;
-	color: #FFF;
-}
-
-.card {
-	background-color: #d4f1f9;
-	margin: 5px;
-	border: 1px solid #000;
-	float: left;
-	width: 290px;
-}
-
-.card-title {
-	text-align: center;
-	color: black;
-}
-
-.card-text {
-	text-align: left;
-	color: black;
-	padding: 4px;
-}
